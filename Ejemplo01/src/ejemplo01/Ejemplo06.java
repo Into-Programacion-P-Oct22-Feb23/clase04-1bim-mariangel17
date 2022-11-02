@@ -23,7 +23,11 @@ public class Ejemplo06 {
         // usamos %s para reemplazar las cadenas, enteros, decimales
         // usamos %d para reemplazar los valores enteros
         // usamos %f para reemplazar los valore decimales
-        System.out.printf("%d\n\n%s\n\n%s\n", nacimiento, apellidoEstudiante, 
+        System.out.printf("%s\n\n%s\n\n%s\n", nombreEstudiante,
+                apellidoEstudiante, 
+                nacimiento);
+        System.out.printf("Nombre:"+"%s\n\n%s\n\n%s\n",nombreEstudiante,
+                apellidoEstudiante,
                 nacimiento);
     }
 }
